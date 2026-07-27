@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-slate-100 text-slate-800;
+}
+
+* {
+  @apply box-border;
+}
+
+button {
+  @apply transition-all duration-300;
+}
+
+input,
+textarea,
+select {
+  @apply outline-none;
+}
